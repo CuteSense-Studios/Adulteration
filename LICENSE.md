@@ -1,23 +1,51 @@
-# Repository Licensing & Comprehensive Game Asset Terms
+# Repository Licensing & Comprehensive Asset Terms
 
-This repository contains the game **Adulteration** developed by **Cutesense Studios**. It is a composite project consisting of original game code, present and future game assets, and third-party dependencies/fonts. Each component is licensed according to the terms set forth below.
+This repository contains the game **Adulteration** developed by **Cutesense Studios**. It is a composite project consisting of original game code, game assets, proprietary materials, and third-party resources. Each component is licensed according to the terms set forth below.
 
 ---
 
-## 1. Primary License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+## 1. Component Licensing Matrix
+
+| Component / Path | Rights Holder | License / Status | Description |
+| :--- | :--- | :--- | :--- |
+| **Photoshop Source Files (`*.psd`)** | © Cutesense Studios | **All Rights Reserved** | Raw working Photoshop files, layered source graphics, and master project files. |
+| **Company Logos & Branding** | © Cutesense Studios | **All Rights Reserved** | Studio logos, name, icon marks, watermarks, brand identity, and trademarks. |
+| **Borel Font** (`fonts/borel/`) | Cutesense Studios / The Borel Project Authors | **All Rights Reserved** | Designated All Rights Reserved for this project repository. *(Upstream font by The Borel Project Authors under SIL OFL 1.1; see note in Section 2)* |
+| **Game Code & General Game Assets**<br>(`project.godot`, `blockbenchmodels/`, scenes, scripts, future assets) | © 2026–2027 Cutesense Studios | **CC BY 4.0**<br>(Creative Commons Attribution 4.0 International) | All present and future original game assets, 3D models, textures, scenes, audio, and code (excluding reserved assets above).<br>*(Generated with Gemini, human verified)* |
+| **Homemade Apple Font**<br>(`fonts/homemade-apple/`) | Font Diner, Inc. | **Apache License 2.0** | Permissive open-source font license. |
+| **Dirty Bunny Font**<br>(`fonts/dirty-bunny/`) | Letterafa Studio (Ahmad Afandi) | **Custom Personal Use License** | Free for personal use only; commercial use requires separate author license. |
+| **Godot Default Assets**<br>(`icon.svg`) | © 2014–present Godot Engine contributors | **MIT License** | Godot Engine template icon. |
+
+---
+
+## 2. Proprietary & Reserved Assets: "All Rights Reserved"
+
+The following categories of assets are **strictly excluded** from the Creative Commons Attribution 4.0 International (CC BY 4.0) license and any other open license. **All rights are reserved by Cutesense Studios** (or their respective rights holders). No reproduction, redistribution, modification, public display, or commercial exploitation is permitted without prior express written permission:
+
+1. **Photoshop Source Files (`*.psd`)**:
+   - All present and future `.psd` files, master layered artwork, working design comps, UI templates, and concept PSD files.
+2. **Company Logos, Trademarks & Brand Identity**:
+   - The "Cutesense Studios" name, logo emblems, studio iconography, trade names, wordmarks, watermarks, splash screen branding, and any distinctive trade dress.
+3. **Borel Font Asset (`fonts/borel/`)**:
+   - Designated as **All Rights Reserved** within this repository and distribution.
+   - *Legal Notice*: The upstream font software was authored by The Borel Project Authors and originally distributed under the SIL Open Font License, Version 1.1 (reproduced in Section 4(A) for compliance). Within the context of this project and studio distribution, all rights regarding its integration, packaging, and project association are reserved by Cutesense Studios.
+
+---
+
+## 3. General Game Assets & Code: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 **Copyright (c) 2026-2027 (and future revisions) Cutesense Studios**  
 **Provenance / AI Disclosure**: *Generated with Gemini, human verified.*
 
-### Scope of Coverage: All Current & Future Game Assets
+### Scope of Coverage: All Current & Future Game Assets (Excluding Reserved Assets)
 
-Unless explicitly stated otherwise in a specific subdirectory or file header, **all present and future game assets and code** created for or added to the **Adulteration** project by or on behalf of Cutesense Studios are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+Except for the assets explicitly designated as **All Rights Reserved** in Section 2, **all present and future game assets and code** created for or added to the **Adulteration** project by or on behalf of Cutesense Studios are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 This includes, without limitation:
 1. **3D Models & Meshes (Present & Future)**:
    - All Blockbench models (`*.bbmodel`), Blender projects (`*.blend`), exported meshes (`*.gltf`, `*.glb`, `*.fbx`, `*.obj`, `*.dae`), MagicaVoxel files (`*.vox`), character rigs, skeletons, animations, and collision geometry.
-2. **2D Art, Textures & Graphic Design (Present & Future)**:
-   - All character textures, environmental textures, diffuse/normal/emission maps, pixel art, sprite sheets, concept art, promotional illustrations, UI components, icons, logos, skyboxes, and source artwork (`*.png`, `.jpg`, `.jpeg`, `.webp`, `.tga`, `.psd`, `.kra`, `.ase`, `.aseprite`, `.svg`).
+2. **2D Art, Textures & In-Game Graphics (Present & Future)**:
+   - All character textures, environmental textures, diffuse/normal/emission maps, pixel art, sprite sheets, in-game UI components, skyboxes, and game-ready raster/vector artwork (`*.png`, `.jpg`, `.jpeg`, `.webp`, `.tga`, `.kra`, `.ase`, `.aseprite`, `.svg` — excluding company logos and `.psd` files).
 3. **Source Code, Scripts & Shaders (Present & Future)**:
    - All Godot scripts (`*.gd`), C# classes (`*.cs`), visual shaders and shader code (`*.gdshader`, `.shader`), custom compute shaders, editor plugins, and procedural tools developed for the game.
 4. **Scenes, Levels & Data Resources (Present & Future)**:
@@ -29,7 +57,7 @@ This includes, without limitation:
 
 ### Forward-Looking / Future Assets Clause
 
-- **Automatic Inclusion**: Any future file, asset, artwork, or commit added to this project repository under the authorship or direction of Cutesense Studios shall automatically be deemed Licensed Material under **CC BY 4.0** from the moment of creation and integration, without requiring a manual update of individual copyright notices.
+- **Automatic Grant**: Any future eligible game asset or code added to this project repository under the authorship or direction of Cutesense Studios shall automatically be deemed Licensed Material under **CC BY 4.0** from the moment of creation and integration, unless classified as an All Rights Reserved asset (such as `.psd` files or company branding).
 - **Third-Party Inclusions**: Any future third-party or open-source asset imported into this repository shall retain its original upstream license and must be clearly attributed in this document or its respective folder.
 
 ---
@@ -55,19 +83,7 @@ Official Legal Code: https://creativecommons.org/licenses/by/4.0/legalcode
 
 ---
 
-## 2. Component Licensing Matrix
-
-| Component / Path | Copyright / Rights Holder | License | Applies To |
-| :--- | :--- | :--- | :--- |
-| **All Original Game Assets & Code**<br>(`project.godot`, `blockbenchmodels/`, scenes, scripts, future assets) | © 2026–2027 Cutesense Studios | **CC BY 4.0** | All current and future original game assets, 3D models, textures, scenes, audio, and code. *(Generated with Gemini, human verified)* |
-| **Borel Font**<br>(`fonts/borel/`) | © 2023 The Borel Project Authors | **SIL Open Font License 1.1** (OFL-1.1) | Font files (`Borel-Regular.ttf`) |
-| **Homemade Apple Font**<br>(`fonts/homemade-apple/`) | Font Diner, Inc. | **Apache License 2.0** | Font files (`HomemadeApple.ttf`) |
-| **Dirty Bunny Font**<br>(`fonts/dirty-bunny/`) | Letterafa Studio (Ahmad Afandi) | **Custom Personal Use License** | Font files (`DirtyBunny.ttf`). *Commercial use requires external license from author.* |
-| **Godot Default Assets**<br>(`icon.svg`) | © 2014–present Godot Engine contributors | **MIT License** | Godot Engine template icon and default engine assets. |
-
----
-
-## 3. Third-Party Licenses & Notices
+## 4. Third-Party Licenses & Notices
 
 ### A. SIL Open Font License, Version 1.1 (fonts/borel/)
 
@@ -283,6 +299,6 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
