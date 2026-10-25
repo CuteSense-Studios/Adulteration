@@ -1,6 +1,6 @@
 # Repository Licensing & Comprehensive Asset Terms
 
-This repository contains the game **Adulteration** developed by **Cutesense Studios**. It is a composite project consisting of original game code, game assets, proprietary materials, and third-party resources. Each component is licensed according to the terms set forth below.
+This repository contains the game **Adulteration** developed by **Cutesense Studios**. It is a composite project consisting of original game code, game assets, proprietary materials, third-party audio, and external resources. Each component is licensed according to the terms set forth below.
 
 ---
 
@@ -8,10 +8,12 @@ This repository contains the game **Adulteration** developed by **Cutesense Stud
 
 | Component / Path | Rights Holder | License / Status | Description |
 | :--- | :--- | :--- | :--- |
+| **Blockbench Textures**<br>(`blockbenchmodels/**`, `VeleraRoom/`, `Veleratextures/`, etc.) | © Cutesense Studios | **All Rights Reserved** | All present and future textures, texture atlases, character skins, and art mapped to Blockbench models. |
 | **Photoshop Source Files (`*.psd`)** | © Cutesense Studios | **All Rights Reserved** | Raw working Photoshop files, layered source graphics, and master project files. |
 | **Company Logos & Branding** | © Cutesense Studios | **All Rights Reserved** | Studio logos, name, icon marks, watermarks, brand identity, and trademarks. |
 | **Borel Font** (`fonts/borel/`) | Cutesense Studios / The Borel Project Authors | **All Rights Reserved** | Designated All Rights Reserved for this project repository. *(Upstream font by The Borel Project Authors under SIL OFL 1.1; see note in Section 2)* |
-| **Game Code & General Game Assets**<br>(`project.godot`, `blockbenchmodels/`, scenes, scripts, future assets) | © 2026–2027 Cutesense Studios | **CC BY 4.0**<br>(Creative Commons Attribution 4.0 International) | All present and future original game assets, 3D models, textures, scenes, audio, and code (excluding reserved assets above).<br>*(Generated with Gemini, human verified)* |
+| **Music & Sound Effects (SFX)** | Various / Stock / Suno AI / Composers | **Stock, Suno & Individual Licenses** | Music and audio tracks are sourced under commercial stock licenses, Suno AI generation terms, or individual composer agreements. *(Exempt from CC BY 4.0; see Section 4)* |
+| **Game Code & General Game Assets**<br>(`project.godot`, models, scenes, scripts, future assets) | © 2026–2027 Cutesense Studios | **CC BY 4.0**<br>(Creative Commons Attribution 4.0 International) | All present and future original game code, 3D meshes, scene trees, and general assets (excluding reserved textures and assets above).<br>*(Generated with Gemini, human verified)* |
 | **Homemade Apple Font**<br>(`fonts/homemade-apple/`) | Font Diner, Inc. | **Apache License 2.0** | Permissive open-source font license. |
 | **Dirty Bunny Font**<br>(`fonts/dirty-bunny/`) | Letterafa Studio (Ahmad Afandi) | **Custom Personal Use License** | Free for personal use only; commercial use requires separate author license. |
 | **Godot Default Assets**<br>(`icon.svg`) | © 2014–present Godot Engine contributors | **MIT License** | Godot Engine template icon. |
@@ -22,13 +24,15 @@ This repository contains the game **Adulteration** developed by **Cutesense Stud
 
 The following categories of assets are **strictly excluded** from the Creative Commons Attribution 4.0 International (CC BY 4.0) license and any other open license. **All rights are reserved by Cutesense Studios** (or their respective rights holders). No reproduction, redistribution, modification, public display, or commercial exploitation is permitted without prior express written permission:
 
-1. **Photoshop Source Files (`*.psd`)**:
-   - All present and future `.psd` files, master layered artwork, working design comps, UI templates, and concept PSD files.
-2. **Company Logos, Trademarks & Brand Identity**:
+1. **Blockbench Textures (`blockbenchmodels/`)**:
+   - All current and future texture files (`*.png`, etc.), UV maps, character skins, furniture textures, wall/floor/roof textures, and hand-painted materials residing in or associated with Blockbench 3D models (including `blockbenchmodels/VeleraRoom/**`, `blockbenchmodels/Veleratextures/**`, and future model directories).
+2. **Photoshop Source Files (`*.psd`)**:
+   - All present and future `.psd` files, master layered artwork, working design comps, UI templates, and concept PSD files (such as `psdassets/`).
+3. **Company Logos, Trademarks & Brand Identity**:
    - The "Cutesense Studios" name, logo emblems, studio iconography, trade names, wordmarks, watermarks, splash screen branding, and any distinctive trade dress.
-3. **Borel Font Asset (`fonts/borel/`)**:
+4. **Borel Font Asset (`fonts/borel/`)**:
    - Designated as **All Rights Reserved** within this repository and distribution.
-   - *Legal Notice*: The upstream font software was authored by The Borel Project Authors and originally distributed under the SIL Open Font License, Version 1.1 (reproduced in Section 4(A) for compliance). Within the context of this project and studio distribution, all rights regarding its integration, packaging, and project association are reserved by Cutesense Studios.
+   - *Legal Notice*: The upstream font software was authored by The Borel Project Authors and originally distributed under the SIL Open Font License, Version 1.1 (reproduced in Section 4 for compliance). Within the context of this project and studio distribution, all rights regarding its integration, packaging, and project association are reserved by Cutesense Studios.
 
 ---
 
@@ -39,26 +43,24 @@ The following categories of assets are **strictly excluded** from the Creative C
 
 ### Scope of Coverage: All Current & Future Game Assets (Excluding Reserved Assets)
 
-Except for the assets explicitly designated as **All Rights Reserved** in Section 2, **all present and future game assets and code** created for or added to the **Adulteration** project by or on behalf of Cutesense Studios are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+Except for the assets explicitly designated as **All Rights Reserved** in Section 2, and external audio governed by Section 4, **all present and future game assets and code** created for or added to the **Adulteration** project by or on behalf of Cutesense Studios are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 This includes, without limitation:
 1. **3D Models & Meshes (Present & Future)**:
-   - All Blockbench models (`*.bbmodel`), Blender projects (`*.blend`), exported meshes (`*.gltf`, `*.glb`, `*.fbx`, `*.obj`, `*.dae`), MagicaVoxel files (`*.vox`), character rigs, skeletons, animations, and collision geometry.
-2. **2D Art, Textures & In-Game Graphics (Present & Future)**:
-   - All character textures, environmental textures, diffuse/normal/emission maps, pixel art, sprite sheets, in-game UI components, skyboxes, and game-ready raster/vector artwork (`*.png`, `.jpg`, `.jpeg`, `.webp`, `.tga`, `.kra`, `.ase`, `.aseprite`, `.svg` — excluding company logos and `.psd` files).
+   - All Blockbench model geometries (`*.bbmodel`), Blender projects (`*.blend`), exported meshes (`*.gltf`, `*.glb`, `*.fbx`, `*.obj`, `*.dae`), MagicaVoxel files (`*.vox`), character rigs, skeletons, animations, and collision shapes *(note: model geometry is CC BY 4.0, while Blockbench textures remain All Rights Reserved under Section 2)*.
+2. **General 2D Art & In-Game UI (Present & Future)**:
+   - General in-game UI components, generic icons, particle sprites, and non-reserved game artwork (`*.png`, `.jpg`, `.jpeg`, `.webp`, `.tga`, `.kra`, `.ase`, `.aseprite`, `.svg` — excluding Blockbench textures, company logos, and `.psd` files).
 3. **Source Code, Scripts & Shaders (Present & Future)**:
    - All Godot scripts (`*.gd`), C# classes (`*.cs`), visual shaders and shader code (`*.gdshader`, `.shader`), custom compute shaders, editor plugins, and procedural tools developed for the game.
 4. **Scenes, Levels & Data Resources (Present & Future)**:
    - All Godot scene files (`*.tscn`), custom resource definitions (`*.tres`), tilemaps, world environments, level designs, navigation meshes, physics materials, and UI layouts.
-5. **Audio, Music & Sound Design (Present & Future)**:
-   - All sound effects (SFX), foley, background music (BGM), ambient tracks, voice acting recordings, and audio bus layouts (`*.wav`, `.ogg`, `.mp3`, `.flac`) produced for the project.
-6. **Narrative, Dialogue & Documentation (Present & Future)**:
+5. **Narrative, Dialogue & Documentation (Present & Future)**:
    - All story text, quest design, character lore, dialogue scripts, localization databases, game design documents (GDD), and design notes.
 
 ### Forward-Looking / Future Assets Clause
 
-- **Automatic Grant**: Any future eligible game asset or code added to this project repository under the authorship or direction of Cutesense Studios shall automatically be deemed Licensed Material under **CC BY 4.0** from the moment of creation and integration, unless classified as an All Rights Reserved asset (such as `.psd` files or company branding).
-- **Third-Party Inclusions**: Any future third-party or open-source asset imported into this repository shall retain its original upstream license and must be clearly attributed in this document or its respective folder.
+- **Automatic Grant**: Any future eligible game asset or code added to this project repository under the authorship or direction of Cutesense Studios shall automatically be deemed Licensed Material under **CC BY 4.0** from the moment of creation and integration, unless classified as an All Rights Reserved asset (such as `.psd` files, Blockbench textures, or company branding) or external third-party material.
+- **Third-Party Inclusions**: Any future third-party or open-source asset imported into this repository shall retain its original upstream license and must be clearly attributed.
 
 ---
 
@@ -83,9 +85,22 @@ Official Legal Code: https://creativecommons.org/licenses/by/4.0/legalcode
 
 ---
 
-## 4. Third-Party Licenses & Notices
+## 4. Third-Party, Audio & External Licenses
 
-### A. SIL Open Font License, Version 1.1 (fonts/borel/)
+### A. Music & Sound Effects (SFX) Licenses
+
+Music, ambient audio, and sound effects incorporated into or planned for this repository are sourced through distinct licensing models and are **explicitly excluded** from CC BY 4.0:
+
+1. **Stock Royalty-Free Licenses**:
+   - Certain sound effects (SFX), foley, and musical tracks are licensed under commercial, royalty-free stock licenses from external asset providers or audio libraries. These assets may be bundled with the game build but may not be separately extracted, redistributed, or sublicensed.
+2. **Suno AI Music Generation License**:
+   - Musical tracks generated using Suno AI are governed by Suno's Terms of Service and the applicable commercial subscription / creator terms under which they were generated. Downstream usage must comply with Suno AI platform terms.
+3. **Individual Composer / Creator Licenses**:
+   - Custom musical scores or dedicated sound assets commissioned from or contributed by individual sound designers, composers, or voice actors are governed by their respective individual license or contributor agreements with Cutesense Studios.
+
+---
+
+### B. SIL Open Font License, Version 1.1 (fonts/borel/)
 
 ```
 Copyright 2023 The Borel Project Authors (https://github.com/RosaWagner/Borel)
@@ -162,7 +177,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ---
 
-### B. Apache License, Version 2.0 (fonts/homemade-apple/)
+### C. Apache License, Version 2.0 (fonts/homemade-apple/)
 
 ```
                                  Apache License
@@ -258,7 +273,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ---
 
-### C. Dirty Bunny Font License Notice (fonts/dirty-bunny/)
+### D. Dirty Bunny Font License Notice (fonts/dirty-bunny/)
 
 ```
 Dirty Bunny Font
@@ -278,7 +293,7 @@ Contact / Purchasing:
 
 ---
 
-### D. MIT License (Godot Engine Default Assets)
+### E. MIT License (Godot Engine Default Assets)
 
 ```
 Copyright (c) 2014-present Godot Engine contributors
@@ -299,6 +314,28 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE SOFTWARE.
 ```
+
+---
+
+## 5. Conclusion & Rights Clearance Summary
+
+To ensure complete clarity when using, contributing to, or sharing materials from this repository, adhere to the following summary:
+
+1. **What is Freely Usable under CC BY 4.0**:
+   - Original GDScript/C# code, Godot scene structures (`*.tscn`), custom resources (`*.tres`), shaders, and 3D mesh geometry created for *Adulteration*.
+   - You may copy, adapt, remix, and redistribute these elements commercially or non-commercially, provided you provide proper attribution to **Cutesense Studios (2026–2027)** and indicate that it was *Generated with Gemini, human verified*.
+2. **What is Strictly Reserved (All Rights Reserved)**:
+   - **Blockbench Textures**: All textures, skins, and artwork associated with Blockbench models (`blockbenchmodels/**`).
+   - **Raw Photoshop Design Files**: All `.psd` master files and working design files (`psdassets/**`).
+   - **Brand Identity**: The Cutesense Studios company name, logo emblems, and promotional trademarks.
+   - **Borel Font**: In-project packaging and distribution of the Borel font asset.
+   - *These items may not be extracted, reused, redistributed, or sublicensed without explicit prior written authorization from Cutesense Studios.*
+3. **What Requires Third-Party Compliance**:
+   - **Audio & SFX**: Stock audio libraries, Suno AI tracks, and individual composer recordings retain their respective licenses and platform terms.
+   - **Fonts**: Upstream font terms for Homemade Apple (Apache 2.0) and Dirty Bunny (Personal Use only).
+   - **Godot Engine Assets**: Permissive MIT License terms.
+4. **Licensing Inquiries**:
+   - For permissions, commercial licensing of reserved textures/branding, or rights clearance questions, please contact **Cutesense Studios**.
