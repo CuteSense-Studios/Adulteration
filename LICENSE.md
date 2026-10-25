@@ -1,6 +1,6 @@
 # Repository Licensing & Comprehensive Asset Terms
 
-This repository contains the game **Adulteration** developed by **Cutesense Studios**. It is a composite project consisting of original game code, game assets, proprietary materials, third-party audio, and external resources. Each component is licensed according to the terms set forth below.
+This repository contains the game **Adulteration** developed by **Cutesense Studios** (Forming Year: 2026). It is a composite project consisting of original game code, game assets, proprietary materials, third-party audio, and external resources. Each component is licensed according to the terms set forth below.
 
 ---
 
@@ -38,7 +38,7 @@ The following categories of assets are **strictly excluded** from the Creative C
 
 ## 3. General Game Assets & Code: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-**Copyright (c) 2026-2027 (and future revisions) Cutesense Studios**  
+**Copyright (c) 2026-2027 (and future revisions) Cutesense Studios (Forming Year: 2026)**  
 **Provenance / AI Disclosure**: *Generated with Gemini, human verified.*
 
 ### Scope of Coverage: All Current & Future Game Assets (Excluding Reserved Assets)
@@ -338,4 +338,4 @@ To ensure complete clarity when using, contributing to, or sharing materials fro
    - **Fonts**: Upstream font terms for Homemade Apple (Apache 2.0) and Dirty Bunny (Personal Use only).
    - **Godot Engine Assets**: Permissive MIT License terms.
 4. **Licensing Inquiries**:
-   - For permissions, commercial licensing of reserved textures/branding, or rights clearance questions, please contact **Cutesense Studios**.
+   - For permissions, commercial licensing of reserved textures/branding, or rights clearance questions, please contact **Cutesense Studios** (Forming Year: 2026).
