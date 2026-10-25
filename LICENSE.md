@@ -324,20 +324,4 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ## 5. Conclusion & Rights Clearance Summary
 
-To ensure complete clarity when using, contributing to, or sharing materials from this repository, adhere to the following summary:
-
-1. **What is Freely Usable under CC BY 4.0**:
-   - Original GDScript/C# code, Godot scene structures (`*.tscn`), custom resources (`*.tres`), shaders, and 3D mesh geometry created for *Adulteration*.
-   - You may copy, adapt, remix, and redistribute these elements commercially or non-commercially, provided you provide proper attribution to **Cutesense Studios (2026–2027)** and indicate that it was *Generated with Gemini, human verified*.
-2. **What is Strictly Reserved (All Rights Reserved)**:
-   - **Blockbench Textures**: All textures, skins, and artwork associated with Blockbench models (`blockbenchmodels/**`).
-   - **Raw Photoshop Design Files**: All `.psd` master files and working design files (`psdassets/**`).
-   - **Brand Identity**: The Cutesense Studios company name, logo emblems, and promotional trademarks.
-   - **Borel Font**: In-project packaging and distribution of the Borel font asset.
-   - *These items may not be extracted, reused, redistributed, or sublicensed without explicit prior written authorization from Cutesense Studios.*
-3. **What Requires Third-Party Compliance**:
-   - **Audio & SFX**: Stock audio libraries, Suno AI tracks, and individual composer recordings retain their respective licenses and platform terms.
-   - **Fonts**: Upstream font terms for Homemade Apple (Apache 2.0) and Dirty Bunny (Personal Use only).
-   - **Godot Engine Assets**: Permissive MIT License terms.
-4. **Licensing Inquiries**:
-   - For permissions, commercial licensing of reserved textures/branding, or rights clearance questions, please contact **Cutesense Studios**.
+This repository operates under a hybrid licensing model designed to support open collaboration while safeguarding key proprietary assets and respecting third-party intellectual property. All original game source code (GDScript and C#), Godot scene architectures (`*.tscn`), custom resource definitions (`*.tres`), shaders, and 3D mesh geometry created for *Adulteration* are freely available for commercial and non-commercial sharing, adaptation, and redistribution under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, provided proper attribution is given to Cutesense Studios (2026–2027) along with the notice that the material was generated with Gemini and human verified. In contrast, all Blockbench model textures (`blockbenchmodels/**`), raw Photoshop source documents (`psdassets/**`), company branding, studio logos, and the repository distribution of the Borel font are strictly proprietary under All Rights Reserved and may not be extracted, reproduced, or redistributed without prior written authorization. Additionally, all in-game music and sound effects remain governed by their respective royalty-free stock licenses, Suno AI terms of service, or individual composer agreements, while bundled third-party fonts (Apache 2.0, Personal Use) and engine assets (MIT) continue under their existing terms. For permissions, commercial licensing of reserved textures, or any rights clearance questions, please contact Cutesense Studios.
